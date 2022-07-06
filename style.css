@@ -1,0 +1,55 @@
+img{
+    width: 150px;
+    margin-top: 110px;
+}
+body{
+    background-image: url(bg11.webp);
+
+}
+table{
+    background-color: rgb(129, 196, 219);
+        width: 25%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #555;
+        outline: none;
+}
+button{
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: lightblue;
+}
+select{
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    padding: 8px 16px;
+}
+input[type="radio"]{
+    cursor: pointer;
+} 
+input[type="text"],input[type="password"]{
+    padding: 4px 8px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
